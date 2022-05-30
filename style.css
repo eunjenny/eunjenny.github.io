@@ -18,7 +18,7 @@ body {
   font-size: 60px;
 }
 .Jumping span {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Alfa Slab One', cursive,sans-serif;
   position: relative;
   display: inline-block;
   color: #fff;
