@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif, monospace;
+  background: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.trigger {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: pink;
+  font-size: 124px;
+  letter-spacing: 8px;
+  cursor: pointer;
+}
+
+.trigger::before {
+  content: "JENNYLEE";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+span::after {
+  content: "JENNYLEE";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+.trigger:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+.trigger:hover:after {
+  top: -10px;
+  left: -10px;
+} 
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.Jumping {
+  position: relative;
+  top: 200px;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.Jumping  {
+ font-family: uniwars, Arial,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: Jumping 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes Jumping {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+ 
+  
+}
+
+@font-face { 
+  font-family: 'OpenSans-Semibold';
+  src: url('fonts/OpenSans-Semibold-webfont.woff') format('woff');
+}
+
+
+.container{
+  font-family: 'OpenSans-Semibold', Arial, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 4px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  min-height: 10vh;
+
+}
+.btn-1{
+  width: 300px;
+  height: 100px;
+  border-radius: none;
+  color: white;
+  background-color: hotpink;
+  border-radius: 4px;
+  box-shadow: yellow;
+  transition: case-out 0.3s;
+  font-size: 2rem;
+  outline: none;
+}
+.btn-1:hover{
+  box-shadow: inset 300px 0 0 0 yellow;
+}
+}
+
+
