@@ -83,17 +83,24 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   left: 330px;
 }
 
-#typelink{
+#processlink{
   font-size: 12pt;
   position: absolute;
   top: 370px;
   left: 330px;
 }
-#posterlink{
+#typelink{
   font-size: 12pt;
   position: absolute;
   top: 395px;
   left: 330px;
+}
+#posterlink{
+  font-size: 12pt;
+  position: absolute;
+  top: 415px;
+  left: 330px;
+
 }
 #recone {
   width: 200px;
