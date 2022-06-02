@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+body {
+    background-color: pink;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+    font-size: 37px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  	color: #ffffff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size:12px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+
+div {
+    width: 500px;
+    height: 880px;
+    background-color: #64B5F6;
+    text-align: center;
+    border: 8px solid #fff;
+    font-family: 'Cabin Sketch', cursive;
+    margin: 30px auto;
+    padding: 10px;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.7);
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #1976D2;
+    border-radius: 50%;
+    margin: 30px auto;
+    border: none;
+    box-shadow: none;
+}
+
+.info {
+    background: #b7dcfb;
+    width: auto;
+    height: auto;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+}
