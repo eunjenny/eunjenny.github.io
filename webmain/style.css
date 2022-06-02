@@ -1,0 +1,131 @@
+body {
+ font-family: 'PT Serif', serif;
+  font-weight: bold;
+  background-color: #ffc0cb;
+}
+
+#container {
+  width: 595px;
+  height: 842px;
+  background-color: #fff4e6;
+  margin: 20px auto;
+  position: relative;
+}
+
+#webpink {
+  font-size: 150pt;
+  position: absolute;
+  top: -260px;
+  left: -5px;
+  color: #ff2252;
+}
+
+#webblue {
+  font-size: 150pt;
+  position: absolute;
+  top: -260px;
+  left: 5px;
+  color: #0200ff;
+  opacity: 0.45;
+}
+
+#phicpink {
+  font-size: 150pt;
+  position: absolute;
+  top: -140px;
+  left: 180px;
+  color: #ff2252;
+}
+
+#phicblue {
+  font-size: 150pt;
+  position: absolute;
+  top: -140px;
+  left: 190px;
+  color: #0200ff;
+  opacity: 0.45;
+}
+
+#design {
+  font-size: 150pt;
+  position: absolute;
+  top: 170px;
+  left: -260px;
+  color: #ff7795;
+  
+  /* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#paragraphone {
+  font-size: 10pt;
+  position: absolute;
+  top: 315px;
+  left: 270px;
+}
+
+#paragraphtwo {
+  font-size: 10pt;
+  position: absolute;
+  top: 332px;
+  left: 330px;
+}
+
+#typelink{
+  font-size: 12pt;
+  position: absolute;
+  top: 370px;
+  left: 330px;
+}
+#posterlink{
+  font-size: 12pt;
+  position: absolute;
+  top: 395px;
+  left: 330px;
+}
+#recone {
+  width: 200px;
+  height: 40px;
+  background-color: #ff2252;
+  position: absolute;
+  right: 0px;
+  bottom: 100px;
+}
+
+#rectwo {
+  width: 240px;
+  height: 80px;
+  background-color: #0200ff;
+  opacity: 0.45;
+  position: absolute;
+  right: 0px;
+  bottom: 45px;
+}
+
+#paragraphthree {
+  font-size: 9pt;
+  position: absolute;
+  color: #d9dfd1;
+  right: 145px;
+  bottom: 65px;
+}
+
+#paragraphfour {
+  font-size: 9pt;
+  position: absolute;
+  color: #d9dfd1;
+  right: 85px;
+  bottom: 52px;
+}
