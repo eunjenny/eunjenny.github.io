@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
+h1{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 75px;
+	color: #a18167;
+}
+.box {
+  position:relative;
+  transition: .5s ease; 
+ }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.text {
+  position:absolute;
+  visibility:hidden;
+  font-family: 'Open Sans', sans-serif;
+  color: #a18167;
+  font-size: 20px;
+ }
+
+.box:hover {
+  opacity:0.7;
+ }
+
+.box:hover .text {
+   visibility:visible;
+ }    
+img {
+height: 400px;
+width: 370px;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+h4{
+	font-family: 'Open Sans', sans-serif;
+	color: #a18167;
+}
+body{
+	background: #f2e5d9;
+}
