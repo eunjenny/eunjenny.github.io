@@ -1,0 +1,324 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+body{
+	background-color: #e3f2fd;
+}
+
+h1 {
+  margin-top: 10px;
+  color: #1e88e5;
+  font-size: 100ox;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1+p {
+  color: black;
+}
+
+h2 {
+  color: #2196f3;
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  padding: 10px;
+  color: #42a5f5;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+#section {
+  background: #FFFFFF;
+  height: auto;
+  padding: 20px 50px;
+  margin: 0;
+  border-bottom: solid 1px #f1f1f1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.colors {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height:100px;
+}
+
+
+/* COLORS */
+
+#colorWhite {
+  background: #ffffff;
+  border: solid 1px #f1f1f1;
+}
+
+#colorOffWhite {
+  background: #fff8E6;
+}
+
+#colorPrimary {
+  background: #ffDACA;
+  color: #ffffff;
+}
+
+#colorPrimaryDark {
+  background: #ffbdaf;
+  color: #ffffff;
+}
+
+#colorPrimaryLight {
+  background: #ffa194;
+}
+
+#colorAccept {
+  background: #ff857a;
+  color: #ffffff;
+}
+
+#colorReject {
+  background: #ff6961;
+  color: #ffffff;
+}
+
+.row2 {
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0;
+}
+
+#colorWhite2 {
+  background: #e3f2fd;
+  border: solid 1px #f1f1f1;
+}
+
+#colorOffWhite2 {
+  background:#bbdefb;
+}
+
+#colorPrimary2 {
+  background: #90caf9;
+  color: #ffffff;
+}
+
+#colorPrimaryDark2 {
+  background: #64b5f6;
+  color: #ffffff;
+}
+
+#colorPrimaryLight2 {
+  background: #42a5f5;
+}
+
+#colorAccept2 {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+#colorReject2 {
+  background: #1e88e5;
+  color: #ffffff;
+}
+
+.row {
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0;
+}
+
+.column {
+  padding: 0;
+  margin: 0 20px 20px 0;
+}
+
+
+/*typo*/
+
+.description {
+  padding: 10px 0px;
+  font-size: 16px;
+}
+
+section {
+  border: 1px solid black;
+  margin: 5px 5px;
+  padding: 10px 10px 0px 10px;
+}
+
+
+.font {
+  font-family: 'Oswald', sans-serif;
+  width: 40%;
+  display : inline-block;
+  height: 200px;
+  margin: 0px;
+}
+
+.heightadj {
+  position: relative;
+  bottom: 16px;
+}
+.style {
+  list-style: none;
+  font-size: 14px;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  width: 100px;
+  bottom: 29px;
+  left: 62px;
+ 
+}
+
+
+.oswald {
+  font-family: oswald;
+}
+
+.montserrat {
+  font-family: Montserrat;
+  
+}
+
+.light {
+  font-weight: 200;
+}
+.semibold {
+  font-weight: 700;
+}
+.bold {
+  font-weight: 900;
+}
+
+.italics {
+  font-style: italic;
+}
+
+table.one {
+  border-spacing: 50px 5px;
+}
+
+.heading1 {
+  font-family: oswald;
+  font-size: 32px;
+  font-weight:900;
+}
+
+.heading2 {
+  font-size: 28px;
+}
+
+.para {
+  font-size: 16px;
+}
+
+
+
+
+
+
+/* button div */
+#buttons {
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* start da css for da buttons */
+.btn {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:active {
+  background-color: #6FC6FF;
+}
+
+.red {
+  background-color: #e74c3c;
+  box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+.red:hover {
+  background-color: #FF6656;
+}
+
+
+.yellow {
+  background-color: #f1c40f;
+  box-shadow: 0px 5px 0px 0px #D8AB00;
+}
+
+.yellow:inactive {
+  background-color: #FFDE29;
+}
+
+input {
+  margin:40px;
+  box-sizing: border-box;
+  display:block;
+  width:100%;
+  margin:10px 0;
+  padding:10px;
+}
+.type-1 {
+  border-radius:10px;
+  border: 1px solid #eee;
+  transition: .3s border-color;
+}
+.type-1:hover {
+  border: 1px solid #aaa;
+}
+
+.type-2 {
+  background-color: #fafafa;
+  border:0;
+  box-shadow:0 0 4px rgba(0,0,0,0.3);
+  transition: .3s box-shadow;
+}
+.type-2:inactive {
+  box-shadow:0 0 4px rgba(0,0,0,0.5);
+}
+.type-3 {
+  border:1px solid #111;
+  transition: .3s background-color;
+}
+.type-3:active {
+  background-color: #fafafa;
+}
+
+a {
+  color: SkyBlue;
+  font-weight: 400;
+}
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: SpringGreen;
+}
