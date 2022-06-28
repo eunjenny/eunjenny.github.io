@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+html {
+    height: 100vh;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient( #fff, #fefefe, #eaeaea);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Hind:700);
+
+h4 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 400%;
+  color: black;
+  background: black;
+  text-align: center;
+}
+
+span {
+  color: transparent;
+  animation: blur 10s ease-out infinite;
+  -webkit-animation: blur 10s ease-out infinite;
+}
+
+span:nth-child(1) {
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+span:nth-child(2) {
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+span:nth-child(3) {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+span:nth-child(4) {
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+span:nth-child(5) {
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+span:nth-child(6) {
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+}
+span:nth-child(7) {
+  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.7s;
+}
+
+@keyframes blur {
+  0%    {text-shadow:  0 0 100px #fff; opacity:0;}
+  5%    {text-shadow:  0 0 90px #fff;}
+  15%   {opacity: 1;}
+  20%   {text-shadow:  0 0 0px #fff;}
+  80%   {text-shadow:  0 0 0px #fff;}
+  85%   {opacity: 1;}
+  95%   {text-shadow:  0 0 90px #fff;}
+  100%  {text-shadow:  0 0 100px #fff; opacity:0;}
+}
+
+@-webkit-keyframes blur {
+  0%    {text-shadow:  0 0 100px #fff; opacity:0;}
+  5%    {text-shadow:  0 0 90px #fff;}
+  15%   {opacity: 1;}
+  20%   {text-shadow:  0 0 0px #fff;}
+  80%   {text-shadow:  0 0 0px #fff;}
+  85%   {opacity: 1;}
+  95%   {text-shadow:  0 0 90px #fff;}
+  100%  {text-shadow:  0 0 100px #fff; opacity:0;}
+}
+
+.accordion {
+    max-width: 990px;
+    background: rgba(0, 0, 0, 0.10);
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
+    flex-direction: row;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.box {
+    position: relative;
+    height: 100%;
+    flex: 1;
+    background-position: left;
+    background-size: cover;
+    transition: .7s;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
+}
+.box:hover{
+    flex: 7;
+    height: 2200px;
+}
+.a1 {
+    background-image: url("https://site.groupe-psa.com/content/uploads/sites/9/2016/12/white-background-2-768x450.jpg");
+}
+.a2 {
+    background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    color: #fff;
+
+}
+.a3 {
+    background-image: url(" https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Grey_background.jpg/1200px-Grey_background.jpg");
+    color: #fff;
+}
+.a4 {
+    background-image: url("https://cdn.wallpapersafari.com/93/84/x7tXzR.jpg");
+    color: #fff;
+}
+.a5 {
+    background-image: url("https://theprojectmatters.org/wp-content/uploads/2017/10/Dark-Grey-background.jpg");
+    color: #fff; 
+}
+p {
+      font-weight: normal;
+    font-family: 'Exo 2', sans-serif;
+}
+.text {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    padding: 10px;
+}
+.box:hover .text{
+    opacity:1;
+}
+h1 {
+    width: 250px;
+    text-align: center;
+    margin: 100px auto 20px auto;
+}
+@media screen and (max-width: 800px){
+    body{
+        margin: 0;
+    }
+    .accordion {
+        flex-direction: column;
+        height: 700px;
+        box-shadow: none;
+    }
+    .box {
+        box-shadow: none;
+    }
+    .box:hover {
+        flex: 7;
+    }
+}
